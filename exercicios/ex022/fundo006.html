@@ -3,30 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - Background  
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover; /* size na shorthand não está funcional na prática mas na regra do w3schools ele consta */
         }
 
         main {
-            background-color: white;
-            width: 400px;
+            background-color: rgba(255, 255, 255, 0.774);
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+        }
+
+        main h1{
+            text-align: center;
+        }
+
+        main p{
+            font-weight: bold;
+            text-align: justify;
+            text-indent: 30px;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui dolores facere. Iste perferendis asperiores ratione temporibus vitae reiciendis, aut tempora quam numquam delectus laudantium repellendus, molestias non, quisquam fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, voluptates ducimus earum atque debitis impedit deleniti consequuntur praesentium facilis et natus aliquid ea temporibus obcaecati tenetur, libero delectus facere qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae impedit tempora ipsa sapiente eum illo odio, est vero molestiae nobis voluptate perferendis ad, aperiam non quidem hic molestias sequi labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui dolores facere. Iste perferendis asperiores ratione temporibus vitae reiciendis, aut tempora quam numquam delectus laudantium repellendus, molestias non, quisquam fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, voluptates ducimus earum atque debitis impedit deleniti consequuntur praesentium facilis et natus aliquid ea temporibus obcaecati tenetur, libero delectus facere qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae impedit tempora ipsa sapiente eum illo odio, est vero molestiae nobis voluptate perferendis ad, aperiam non quidem hic molestias sequi labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui dolores facere. Iste perferendis asperiores ratione temporibus vitae reiciendis, aut tempora quam numquam delectus laudantium repellendus, molestias non, quisquam fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, voluptates ducimus earum atque debitis impedit deleniti consequuntur praesentium facilis et natus aliquid ea temporibus obcaecati tenetur, libero delectus facere qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae impedit tempora ipsa sapiente eum illo odio, est vero molestiae nobis voluptate perferendis ad, aperiam non quidem hic molestias sequi labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui dolores facere. Iste perferendis asperiores ratione temporibus vitae reiciendis, aut tempora quam numquam delectus laudantium repellendus, molestias non, quisquam fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, voluptates ducimus earum atque debitis impedit deleniti consequuntur praesentium facilis et natus aliquid ea temporibus obcaecati tenetur, libero delectus facere qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae impedit tempora ipsa sapiente eum illo odio, est vero molestiae nobis voluptate perferendis ad, aperiam non quidem hic molestias sequi labore.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui dolores facere. Iste perferendis asperiores ratione temporibus vitae reiciendis, aut tempora quam numquam delectus laudantium repellendus, molestias non, quisquam fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, voluptates ducimus earum atque debitis impedit deleniti consequuntur praesentium facilis et natus aliquid ea temporibus obcaecati tenetur, libero delectus facere qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae impedit tempora ipsa sapiente eum illo odio, est vero molestiae nobis voluptate perferendis ad, aperiam non quidem hic molestias sequi labore.</p>
     </main>
 </body>
