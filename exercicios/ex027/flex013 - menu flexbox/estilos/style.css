@@ -25,13 +25,14 @@ header{
     align-items: center;
 }
 
-header h1{
-    border: 1px dotted black;
+header > h1{
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.348);
 }
 
 header > nav{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -45,6 +46,7 @@ header > nav > a{
     margin: 5px;
     text-decoration: none;
     text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.353);
 }
 
 header > nav > a:hover{
